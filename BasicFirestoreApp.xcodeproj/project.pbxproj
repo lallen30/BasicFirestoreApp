@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		469BA3B026C2CD8400B7CFD9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 469BA3AF26C2CD8400B7CFD9 /* GoogleService-Info.plist */; };
 		7947E52A26BE25C0001C19D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7947E52926BE25C0001C19D8 /* AppDelegate.swift */; };
 		7947E52C26BE25C0001C19D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7947E52B26BE25C0001C19D8 /* SceneDelegate.swift */; };
 		7947E52E26BE25C0001C19D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7947E52D26BE25C0001C19D8 /* ViewController.swift */; };
 		7947E53126BE25C0001C19D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7947E52F26BE25C0001C19D8 /* Main.storyboard */; };
 		7947E53326BE25C2001C19D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7947E53226BE25C2001C19D8 /* Assets.xcassets */; };
 		7947E53626BE25C2001C19D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7947E53426BE25C2001C19D8 /* LaunchScreen.storyboard */; };
-		7947E53E26BE2BE8001C19D8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7947E53D26BE2BE8001C19D8 /* GoogleService-Info.plist */; };
 		B980BE21C3976EE6B897E2AC /* libPods-BasicFirestoreApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A1DD22CCCBB94801E21343 /* libPods-BasicFirestoreApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		469BA3AF26C2CD8400B7CFD9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		660CB96A4B6A095EB5AC8163 /* Pods-BasicFirestoreApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFirestoreApp.debug.xcconfig"; path = "Target Support Files/Pods-BasicFirestoreApp/Pods-BasicFirestoreApp.debug.xcconfig"; sourceTree = "<group>"; };
 		7947E52626BE25C0001C19D8 /* BasicFirestoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicFirestoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7947E52926BE25C0001C19D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		7947E53226BE25C2001C19D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7947E53526BE25C2001C19D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7947E53726BE25C2001C19D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7947E53D26BE2BE8001C19D8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C8A5700B9169BCBBA973BF4C /* Pods-BasicFirestoreApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFirestoreApp.release.xcconfig"; path = "Target Support Files/Pods-BasicFirestoreApp/Pods-BasicFirestoreApp.release.xcconfig"; sourceTree = "<group>"; };
 		E4A1DD22CCCBB94801E21343 /* libPods-BasicFirestoreApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicFirestoreApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 		7947E52826BE25C0001C19D8 /* BasicFirestoreApp */ = {
 			isa = PBXGroup;
 			children = (
-				7947E53D26BE2BE8001C19D8 /* GoogleService-Info.plist */,
+				469BA3AF26C2CD8400B7CFD9 /* GoogleService-Info.plist */,
 				7947E52926BE25C0001C19D8 /* AppDelegate.swift */,
 				7947E52B26BE25C0001C19D8 /* SceneDelegate.swift */,
 				7947E52D26BE25C0001C19D8 /* ViewController.swift */,
@@ -154,7 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7947E53626BE25C2001C19D8 /* LaunchScreen.storyboard in Resources */,
-				7947E53E26BE2BE8001C19D8 /* GoogleService-Info.plist in Resources */,
+				469BA3B026C2CD8400B7CFD9 /* GoogleService-Info.plist in Resources */,
 				7947E53326BE25C2001C19D8 /* Assets.xcassets in Resources */,
 				7947E53126BE25C0001C19D8 /* Main.storyboard in Resources */,
 			);
